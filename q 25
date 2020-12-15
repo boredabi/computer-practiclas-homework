@@ -1,0 +1,8 @@
+#question 25
+x=input("enter an element")
+count=-1
+list1= **************(this question doesnt mention the list so idk what to do)********************
+for i in list1:
+    count+=1
+    if x==i:
+        print("the element",x,"is in the list and has the index of",count)
