@@ -1,0 +1,44 @@
+#question 33
+while True:
+    cost=0
+    print("welcome to mcdonlads :)")
+    print("for today we have the burger, fries, chicken nuggets,and soda")
+    x=str(input("what would you like to buy sir"))
+    if x=="burger":
+        z1=int(input("how many do you want"))
+        y1=str(input("large,medium or small"))
+        if y1=="small":
+            cost+=10*z1
+        elif y1=="medium":
+            cost+=20*z1
+        else:
+            cost+=30*z1
+    elif x=="fries":
+        z2=int(input("how many do you want"))
+        y2=str(input("large,medium or small"))
+        if y2=="small":
+            cost+=5*z2
+        elif y2=="medium":
+            cost+=10*z2
+        else:
+            cost+=15*z2
+    elif x=="chicken nuggets":
+        z3=int(input("how many do you want"))
+        cost=1*z3
+    elif x=="soda":
+        z1=int(input("how many do you want"))
+        y1=str(input("large,medium or small"))
+        if y1=="small":
+            cost+=3*z
+        elif y1=="medium":
+            cost+=6*z
+        else:
+            cost+=9*z
+    else:
+        print("enter something from the menu")
+    print("your total cost is",cost)
+    m=str(input("want to order more"))
+    if m=="yes":
+        pass
+    else:
+        break
