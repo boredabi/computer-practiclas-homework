@@ -1,0 +1,15 @@
+#question 32
+n=int(input("enter the amount of countries"))
+d={}
+for x in range(n):
+    list1=[]
+    name=str(input("enter the countries name"))
+    currency=str(input("enter the respective country's currency"))
+    list1.append(currency)
+    capital=str(input("enter the respective countrys's capital"))
+    list1.append(capital)
+    d[name]=list1
+y=str(input("enter a country's name to find"))
+for g in d:
+    if g==y:
+        print(d[g])
