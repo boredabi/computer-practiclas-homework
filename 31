@@ -1,0 +1,11 @@
+#question 31
+n=int(input("enter the amount of employes"))
+d={}
+for x in range(n):
+    name=str(input("enter their name"))
+    num=int(input("enter a salary"))
+    d[name]=num
+srch=str(input("enter a name to find their salary"))
+for i in d:
+    if srch==i:
+        print(d[i])
